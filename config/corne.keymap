@@ -74,8 +74,8 @@
         compatible = "zmk,conditional-layers";
 
         utility_layer {
-            if-layers = <1>;
-            then-layer = <2>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
